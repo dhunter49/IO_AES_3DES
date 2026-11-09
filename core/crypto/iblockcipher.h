@@ -4,8 +4,6 @@
 #include <QByteArray>
 #include <QString>
 
-enum class Mode { ECB, CBC, CTR };
-
 class IBlockCipher {
 public:
     virtual ~IBlockCipher() = default;

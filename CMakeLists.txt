@@ -23,6 +23,7 @@ install(TARGETS IOProject
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
 add_subdirectory(core/crypto)
+add_subdirectory(core/modes)
 add_subdirectory(core/benchmark)
 add_subdirectory(core/report)
 add_subdirectory(cli)

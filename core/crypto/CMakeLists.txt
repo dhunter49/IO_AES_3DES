@@ -16,6 +16,5 @@ add_library(crypto STATIC
   algorithm.h
 )
 
-target_compile_definitions(crypto PRIVATE CRYPTO_LIBRARY)
 target_link_libraries(crypto PUBLIC Qt${QT_VERSION_MAJOR}::Core)
 target_include_directories(crypto PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
