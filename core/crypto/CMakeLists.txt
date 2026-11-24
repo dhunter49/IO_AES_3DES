@@ -14,6 +14,8 @@ add_library(crypto STATIC
   iblockcipher.h
   cipherfactory.h
   algorithm.h
+  aes/GF2_8.cpp
+  aes/GF2_8.h
 )
 
 target_link_libraries(crypto PUBLIC Qt${QT_VERSION_MAJOR}::Core)
