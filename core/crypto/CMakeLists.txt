@@ -14,6 +14,9 @@ add_library(crypto STATIC
   iblockcipher.h
   cipherfactory.h
   algorithm.h
+  3des/threedes_tables.h
+  3des/threedes_bits.h
+  3des/threedes_bits.cpp
 )
 
 target_link_libraries(crypto PUBLIC Qt${QT_VERSION_MAJOR}::Core)
